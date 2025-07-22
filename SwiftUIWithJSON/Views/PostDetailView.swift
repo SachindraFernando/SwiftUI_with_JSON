@@ -16,6 +16,7 @@ struct PostDetailView: View {
                 Text(post.title)
                     .font(.title)
                     .bold()
+                    .foregroundColor(.cyan)
 
                 Text(post.body)
                     .font(.body)

@@ -24,6 +24,7 @@ struct PostsListView: View {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(post.title)
                                     .font(.headline)
+                                    .foregroundColor(.cyan)
                                 Text(post.body)
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
