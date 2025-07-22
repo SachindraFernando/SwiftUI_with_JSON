@@ -20,14 +20,16 @@ struct PostsListView: View {
                         .foregroundColor(.red)
                 } else {
                     List(vm.posts) { post in
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(post.title)
-                                .font(.headline)
-                            Text(post.body)
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
+                        NavigationLink(destination: PostDetailView(post: post)) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(post.title)
+                                    .font(.headline)
+                                Text(post.body)
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
+                            .padding(.vertical, 4)
                         }
-                        .padding(.vertical, 4)
                     }
                 }
             }
@@ -38,7 +40,6 @@ struct PostsListView: View {
         }
     }
 }
-
 
 #Preview {
     PostsListView()

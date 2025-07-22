@@ -15,6 +15,7 @@
 		F6FC70262E2FBD9D00D585A8 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC70252E2FBD9D00D585A8 /* PostsViewModel.swift */; };
 		F6FC70282E2FBEF500D585A8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC70272E2FBEF500D585A8 /* NetworkService.swift */; };
 		F6FC702A2E2FBF0E00D585A8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC70292E2FBF0E00D585A8 /* Post.swift */; };
+		F6FC702C2E2FC24A00D585A8 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC702B2E2FC24A00D585A8 /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F6FC70252E2FBD9D00D585A8 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		F6FC70272E2FBEF500D585A8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F6FC70292E2FBF0E00D585A8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F6FC702B2E2FC24A00D585A8 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				F6FC70232E2FBD7800D585A8 /* PostsListView.swift */,
+				F6FC702B2E2FC24A00D585A8 /* PostDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				F6FC70262E2FBD9D00D585A8 /* PostsViewModel.swift in Sources */,
 				F6FC70122E2FBCF400D585A8 /* ContentView.swift in Sources */,
 				F6FC702A2E2FBF0E00D585A8 /* Post.swift in Sources */,
+				F6FC702C2E2FC24A00D585A8 /* PostDetailView.swift in Sources */,
 				F6FC70102E2FBCF400D585A8 /* SwiftUIWithJSONApp.swift in Sources */,
 				F6FC70242E2FBD7800D585A8 /* PostsListView.swift in Sources */,
 			);
