@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIWithJSONApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            PostsListView()
         }
     }
 }
